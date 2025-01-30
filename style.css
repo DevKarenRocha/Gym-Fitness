@@ -1,38 +1,47 @@
-.cabecalho-bloco {
-    background-color: #f79517;
-    height: 8vh;
-    margin: 8vh 5vw;
-    border-radius: 100px;
-    position: relative;
-    z-index: 2;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
+ /*BANNER(FUNDO)*/
+.banner img {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 80%; 
+     object-fit: cover; 
+     z-index: 2;
+     }
 
-.cabecalho img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80%; 
-    object-fit: cover; 
-    z-index: -1;
-}
+
+ /*NAVEGADOR*/
+.cabecalho-bloco {
+     background-color: #f79517;
+     height: 8vh;
+     margin: 14vh 5vw;
+     border-radius: 100px;
+     position: relative;
+     z-index: 2;
+     display: flex;
+     justify-content: center; 
+     align-items: center; 
+     }
+
+.bloco-logo{
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     border-radius: 50%;
+     background-color: #f79517;
+     margin: 2vh 2vw;
+     }
 
 .logo-cabecalho {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    border-radius: 20px;
-    border: 2px solid #f79517;
-    z-index: 1; 
-    margin: 2vh 4vw;
-}
+     z-index: 1; 
+     margin: 2vh 4vw;
+     height: 10vh;
+     padding: 1vh 2vw;
+     }
 
-a{
-    font-size: 5rem;
-    text-decoration: none;
-    color: black;
-    margin: 2vh;
-}
+ .link-navbar{
+     font-size: 5rem;
+     text-decoration: none;
+     color: black;
+     margin: 1vh 2vh;
+     }
